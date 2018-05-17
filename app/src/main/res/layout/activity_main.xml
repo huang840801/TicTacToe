@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tictactoe_meitu_1"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageview_monkey"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/monkey_sss" />
+    <ImageView
+        android:id="@+id/imageview_talk"
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/imageview_monkey"
+        android:src="@drawable/talk"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_A"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/style"
+        android:text="3X3"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_B"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="50sp"
+        android:background="@drawable/style"
+        android:text="4X4"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button_C"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="50sp"
+        android:background="@drawable/style"
+        android:text="5X5"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>
+
+</RelativeLayout>
